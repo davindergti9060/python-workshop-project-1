@@ -30,7 +30,7 @@ while(condition):
     # split
     student_info_list = student_info.split(' ')
     
-    print("\nThe entered information is -\m Roll_no: {}\m Name: {}\m Contact: {}\m Mail: {} "
+    print("\nThe entered information is -\n Roll_no: {}\n Name: {}\n Contact: {}\n Mail: {} "
           .format(student_info_list[0], student_info_list[1], student_info_list[2], student_info_list[3]))
     choice_check = input("Is the information correct? (yes/no):")
     if choice_check == "yes":
