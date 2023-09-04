@@ -1,3 +1,5 @@
+This task contains two programs 1. printing circle area , 2. Extension print
+
 1: Python program which accepts the radius of a circle from the user and computes area
 INPUT:
 #improting math to solve math.. programs
@@ -40,7 +42,6 @@ like creating files and directories, management of files and directories, input,
 
 #printing the extension of the filename (Output).
 >>> print("Extension of the file is:", extension)
-
 
 OUTPUT:
 # trial 1 with .py extension :
