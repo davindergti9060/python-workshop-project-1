@@ -16,7 +16,7 @@ def most_frequent(input_string):
     sorted_frequency = sorted(letter_frequency.items(), key=lambda x: x[1], reverse=True)
     for letter, frequency in sorted_frequency:
         print(f"{letter}: {frequency}")
-user_input = input("Enter a string: ")
+user_input = input("Please enter a string: ")
 # Calling function with the user's input
 most_frequent(user_input)
 
