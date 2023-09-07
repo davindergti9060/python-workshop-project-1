@@ -22,25 +22,18 @@ most_frequent(user_input)
 
 
 OUTPUT:
-# random try:
-Enter a string: ddjffhgiii
-i: 3
-d: 2
-f: 2
-j: 1
-h: 1
-g: 1
+Please enter a string: Mississippi
+i: 4
+s: 4
+p: 2
+M: 1
 
-# try 2:
-Enter a string: Samsung
-s: 2
+# Other input tries:
+Please enter a string: Samsung
+S: 1
 a: 1
 m: 1
+s: 1
 u: 1
 n: 1
 g: 1
-
-# try 3:
-Enter a string: Oppo
-o: 2
-p: 2
