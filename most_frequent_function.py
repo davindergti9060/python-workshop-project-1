@@ -2,12 +2,11 @@ Que. Write Python code to create a function called most_frequent that takes a st
 
 INPUT:
 def most_frequent(input_string):
-    # This removes spaces and convert the whole string to lowercase
-    input_string = input_string.replace(" ", "").lower()
-    # Initializing an empty dictionary to store letter frequencies
+    input_string = input_string.replace(" ", "")
+    # Initializing an empty dictionary to store letter's frequencies
     letter_frequency = {}
-    # Counting the frequency of each letter in the string input by user
-   for letter in input_string:
+    # Performimg for i in range and if/else
+    for letter in input_string:
         if letter.isalpha():
             if letter in letter_frequency:
                 letter_frequency[letter] += 1
@@ -15,13 +14,12 @@ def most_frequent(input_string):
                 letter_frequency[letter] = 1
     # Sorting the dictionary by values (i.e, frequency) in descending order
     sorted_frequency = sorted(letter_frequency.items(), key=lambda x: x[1], reverse=True)
-    # Print the letters in descending order of their frequency
     for letter, frequency in sorted_frequency:
         print(f"{letter}: {frequency}")
-# Getting string input from the user
 user_input = input("Enter a string: ")
-# Call the function with the user's input
+# Calling function with the user's input
 most_frequent(user_input)
+
 
 OUTPUT:
 # random try:
